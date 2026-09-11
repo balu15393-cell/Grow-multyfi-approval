@@ -1,0 +1,12 @@
+Multyfi → Groww Approval Assistant v1.1
+
+Source update status:
+- Entry parser smoke test: PASS
+- Exit parser smoke tests: PASS
+- Partial-exit block test: PASS
+- Groww read-only position endpoint integration: ADDED
+- Groww read-only order-list duplicate-exit check: ADDED
+- Direct securities order submission: NOT PRESENT
+
+APK compilation was not run in this ChatGPT runtime because the Android SDK/Gradle toolchain is unavailable here.
+Use the included .github/workflows/build-apk.yml in GitHub Actions to compile app-debug.apk.
